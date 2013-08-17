@@ -1,7 +1,7 @@
 Index: programs/Xserver/hw/xfree86/os-support/bsd/Makefile.in 
 diff -u -p programs/Xserver/hw/xfree86/os-support/bsd/Makefile.in orig programs/Xserver/hw/xfree86/os-support/bsd/Makefile.in 
---- hw/xfree86/os-support/bsd/Makefile.in .orig	Tue Oct  4 01:46:14 2005
-+++ hw/xfree86/os-support/bsd/Makefile.in 	Thu Jan 26 14:57:56 2006
+--- hw/xfree86/os-support/bsd/Makefile.in.orig	Tue Oct  4 01:46:14 2005
++++ hw/xfree86/os-support/bsd/Makefile.in	Thu Jan 26 14:57:56 2006
 @@ -67,11 +67,13 @@
  	$(srcdir)/../shared/pm_noop.c $(srcdir)/bsd_apm.c \
  	$(srcdir)/bsd_kqueue_apm.c $(srcdir)/../shared/kmod_noop.c \
